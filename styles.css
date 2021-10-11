@@ -63,3 +63,17 @@ p {
 #box-3 {
   background-color: var(--box-color-3);
 }
+
+/*** Media Queries **/
+@media (min-width: 700px) {
+  .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    margin: 30px;
+    padding: 50px;
+}
+}
