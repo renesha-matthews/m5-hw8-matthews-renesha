@@ -1,2 +1,5 @@
-# m5-hw8-matthews-renesha
-JavaScript Practice: Manipulating the DOM. Created an interactive advertising prototype.
+## Issues
+
+## Resources
+https://www.codecademy.com/forum_questions/55f2204486f55274a00003b6
+
