@@ -15,18 +15,19 @@ var boxElements = document.querySelectorAll('.box')
 
 for (i = 0; i < boxElements.length; i++) {
     boxElements[i].addEventListener('click', function() {
-        console.log(boxElements++)
+        // within each click event...
+        // determine which box was clicked with 'this.textContent' or event.target.textContent
+        // convert that value to a Number and store it to a variable
+        var boxNumber = Number(this.textContent)
+        return boxNumber 
     }
     )    
 }
 
-// within each click event...
-// determine which box was clicked with 'this.textContent' or event.target.textContent
-// convert that value to a Number and store it to a variable
-
 
 // create a random number between 1-3 and store it to a variable
 // This number will represent the winning box
+var winningBox = Math.floor(Math.random() * 3) + 1
 
 // determine if the box clicked is equal to the random number
 // if the numbers match, display a winning message by changing the text content of the div#message element
