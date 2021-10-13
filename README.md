@@ -9,4 +9,5 @@ https://www.w3schools.com/jsref/jsref_number.asp
 
 https://www.w3schools.com/js/js_random.asp
 
+https://css-tricks.com/snippets/javascript/select-random-item-array/
 
