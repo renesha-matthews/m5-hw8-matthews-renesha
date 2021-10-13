@@ -37,8 +37,8 @@ for (i = 0; i < boxElements.length; i++) {
         // if the numbers don't match, change the div#message element's text to a random losing message from the array above
         // if the numbers don't match, increment losses and display the loss count in div#losses
         if (boxNumber !== winningBox) {
-            var randomMessage = losingMessages[Math.floor(Math.random()*losingMessages.length)]
-            messageEl.textContent = randomMessage
+            var randomLosingMessage = losingMessages[Math.floor(Math.random()*losingMessages.length)]
+            messageEl.textContent = randomLosingMessage
             countLosses++
             lossesEl.textContent = "Losses: " + countLosses
         }
