@@ -83,13 +83,6 @@ p {
   font-size: 22px;
 }
 
-/*** Media Queries **/
-@media (min-width: 396px) {
-  h1 {
-    font-size: 80px;
-  }
-}
-
 
 @media (min-width: 800px) {
   .boxes {
