@@ -11,3 +11,6 @@ https://www.w3schools.com/js/js_random.asp
 
 https://css-tricks.com/snippets/javascript/select-random-item-array/
 
+https://www.w3schools.com/css/css3_shadows_box.asp
+
+https://codepen.io/davidcostales/pen/ogYzeO

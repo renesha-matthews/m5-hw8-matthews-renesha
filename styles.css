@@ -1,3 +1,4 @@
+/*** Global Styling ***/
 :root {
   --primary-color: #6003C3;
   --white: #FFFFFF;
@@ -29,6 +30,7 @@ header, main {
 
 h1 {
   font-size: 70px;
+  word-spacing: 100vw;
 }
 
 p {
@@ -37,6 +39,7 @@ p {
   margin: 14px;
 }
 
+/*** Box Styling ***/
 .boxes {
   font-size: 80px;
 }
@@ -81,7 +84,14 @@ p {
 }
 
 /*** Media Queries **/
-@media (min-width: 700px) {
+@media (min-width: 396px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+
+@media (min-width: 800px) {
   .boxes {
     display: flex;
     justify-content: center;
