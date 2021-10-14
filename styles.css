@@ -38,15 +38,21 @@ p {
 }
 
 .boxes {
-  font-size: 70px;
+  font-size: 80px;
 }
 
 .box {
-  border: 10px solid var(--primary-color);
+  border: 14px solid var(--primary-color);
   border-radius: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.box:hover {
+  cursor: pointer;
 }
 
 /*** Box One ***/
@@ -64,6 +70,16 @@ p {
   background-color: var(--box-color-3);
 }
 
+.score {
+  display: flex;
+  justify-content: center;
+}
+
+#wins, #losses {
+  padding: 10px;
+  font-size: 22px;
+}
+
 /*** Media Queries **/
 @media (min-width: 700px) {
   .boxes {
@@ -76,4 +92,5 @@ p {
     margin: 30px;
     padding: 50px;
 }
+
 }

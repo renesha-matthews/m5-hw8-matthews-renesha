@@ -26,19 +26,19 @@ for (i = 0; i < boxElements.length; i++) {
         var winningBox = Math.floor(Math.random() * 3) + 1
         
         // determine if the box clicked is equal to the random number
-        // if the numbers match, display a winning message by changing the text content of the div#message element
-        // if the numbers match, increment wins and display the win count in div#wins
+        // if the numbers match, display a winning message by changing the text content of the div#message element      
         if (boxNumber === winningBox) {
             messageEl.textContent = "Hooray! You're a winner!"
+            // if the numbers match, increment wins and display the win count in div#wins
             countWins++
             winsEl.textContent = "Wins: " + countWins 
         }
 
-        // if the numbers don't match, change the div#message element's text to a random losing message from the array above
-        // if the numbers don't match, increment losses and display the loss count in div#losses
+        // if the numbers don't match, change the div#message element's text to a random losing message from the array above      
         if (boxNumber !== winningBox) {
             var randomLosingMessage = losingMessages[Math.floor(Math.random()*losingMessages.length)]
             messageEl.textContent = randomLosingMessage
+             // if the numbers don't match, increment losses and display the loss count in div#losses
             countLosses++
             lossesEl.textContent = "Losses: " + countLosses
         }
