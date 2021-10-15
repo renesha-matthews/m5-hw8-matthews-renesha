@@ -10,7 +10,7 @@ I had no issues.
 
 * [Math.random](https://www.w3schools.com/js/js_random.asp)
 
-* [Select Random Item from an Arrary](https://css-tricks.com/snippets/javascript/select-random-item-array/)
+* [Select Random Item from an Array](https://css-tricks.com/snippets/javascript/select-random-item-array/)
 
 * [CSS Box Shadows](https://www.w3schools.com/css/css3_shadows_box.asp)
 
